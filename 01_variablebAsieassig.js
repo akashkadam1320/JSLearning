@@ -33,6 +33,7 @@ console.log("data type:",typeof iscrazy);
 console.log("********undefind********");
 
 
+
 var graduation;
 console.log("Value of  graduation variable is: ", graduation);
 console.log("typeOf graduation is: ", graduation);
