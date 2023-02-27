@@ -36,3 +36,4 @@ if (num1>0) {
 } else {
     console.log(`Number ${num1} is Negitive`);
 }
+ 
