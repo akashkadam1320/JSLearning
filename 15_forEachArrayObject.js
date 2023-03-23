@@ -7,15 +7,15 @@ class employee {
     this.emp_company = emp_company;
   }
 }
-const empAnil = new Employee(22, "Anil", "IT", 50000, "TCS");
-const empRadha = new Employee(33, "Radha", "HR", 74000, "Wipro");
-const empRishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
-const empSonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
-const empMonika = new Employee(77, "Monika", "IT", 40000, "Wipro");
-const empVinayak = new Employee(88, "Vinayak", "IT", 75000, "TCS");
-const empMahesh = new Employee(99, "Mahesh", "HR", 85000, "Infy");
+const empAnil = new employee(22, "Anil", "IT", 50000, "TCS");
+const empRadha = new employee(33, "Radha", "HR", 74000, "Wipro");
+const empRishi = new employee(55, "Rishi", "Finance", 47000, "TCS");
+const empSonali = new employee(66, "Sonali", "Finance", 45000, "Infy");
+const empMonika = new employee(77, "Monika", "IT", 40000, "Wipro");
+const empVinayak = new employee(88, "Vinayak", "IT", 75000, "TCS"); 
+const empMahesh = new employee(99, "Mahesh", "HR", 85000, "Infy");
 
-const arrayEmployee = [
+const arrayemployee = [
   empAnil,
   empRadha,
   empRishi,
@@ -25,7 +25,7 @@ const arrayEmployee = [
   empMahesh,
 ];
 console.log("Find the employees whose name start with R....");
-arrayEmployee.forEach((employee) => {
+arrayemployee.forEach((employee) => {
   let empName = employee.empName;
   if (empName.startsWith("R")) {
     console.log(employee);
